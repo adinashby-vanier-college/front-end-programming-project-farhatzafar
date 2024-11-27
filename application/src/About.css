@@ -1,6 +1,6 @@
 .backgr {
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/pexels-athena-2371905.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -28,4 +28,114 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
+}
+
+.programinfo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.programtext {
+    height: auto; 
+    width: auto; 
+    max-width: 550px; 
+    max-height: 500px;
+    margin-top:50px;
+    margin-right: 80px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.colorbord {
+    background-image: linear-gradient(to bottom right, blue, rgb(255, 123, 145));
+    height: 400px; 
+    width: 400px; 
+}
+
+.blackback {
+    background-color: black;
+    height: 380px;
+    width: 380px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.htmllogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 140px;
+}
+
+.csslogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.javasclogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.sqllogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.javalogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.linuxlogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.windowslogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.debianlogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.intellijlogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.netbeanslogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.eclipselogo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 120px;
 }
