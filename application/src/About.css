@@ -25,6 +25,10 @@ nav ul li {
     color: white;
 }
 
+nav ul li ul.dropdown li{
+    display: block;
+}
+
 nav ul li a {
     text-decoration: none;
     color: white;
