@@ -34,18 +34,19 @@ nav ul li a {
     color: white;
 }
 
-.blogsection {
+.blogssection {
     display: flex;
-    width: 600px;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .blogimage {
-    width: 200px;
+    width: 550px;
     border-radius: 10px;
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
 .blogcard {
@@ -58,6 +59,7 @@ nav ul li a {
     width: 550px; 
     background: black;;
     margin: 30px auto;
+    border-radius: 10px;
 }
 
 .blogcard h4 {
