@@ -36,15 +36,14 @@ nav ul li a {
 
 .blogsection {
     display: flex;
-    width: auto;
-    max-width: 400px;
-    flex-direction: column;
+    width: 600px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .blogimage {
-    width: 300px;
+    width: 200px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -56,6 +55,19 @@ nav ul li a {
     flex-direction: column;
     color: #fff;
     border: #fff solid 2px;
-    margin: 30px 400px;
+    width: 550px; 
     background: black;;
+    margin: 30px auto;
+}
+
+.blogcard h4 {
+    font-family: sans-serif;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.blogcard p {
+    padding: 0;
+    text-align: center;
+    margin: 0 20px;
 }
