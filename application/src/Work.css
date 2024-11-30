@@ -35,29 +35,28 @@ nav ul li a {
 }
 
 #projects {
-    background-color: #f9f9f9;
-    padding-top: 50px;
+    padding-top: 10px;
   }
   
   #projects h1 {
     font-size: 2.5rem;
-    margin-bottom: 30px;
     text-align: center;
+    color: #fff;
   }
   
   .project-cards {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
   }
 
   .project-card {
-    background-color: #fff;
+    background-color: #fed9ff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 30%;
+    width: 40%;
   }
   
   .project-card img {
@@ -65,4 +64,34 @@ nav ul li a {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+  }
+
+  .project-card h2 {
+    margin-top: 10px;
+    font-size: 1.8rem;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #541570;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .project-card a:hover {
+    background-color: #d272ff;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0;
   }
