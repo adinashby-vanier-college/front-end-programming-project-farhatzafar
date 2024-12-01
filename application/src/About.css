@@ -48,7 +48,7 @@
 }
 
 .abouttext h5 {
-  color: #fff;
+  color: #f30a0a;
   font-size: 28px;
   text-transform: 25px;
   margin-bottom: 0.4em;
@@ -63,15 +63,23 @@
 }
 
 .abouttext {
-  padding: 20px;
+  padding: 0 0 0 80px;
 }
 
 @media (max-width: 991px) {
-    .programinfo {
+    .main {
         flex-direction: column;
     }
 
     .backgr {
         height: 100%;
+    }
+
+    .about img {
+      width: 75%;
+    }
+
+    .abouttext {
+      padding: 10px;
     }
 }
