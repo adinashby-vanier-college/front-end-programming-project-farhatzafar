@@ -23,7 +23,7 @@
 
 .blogimage {
     width: auto;
-    max-width: 550px;
+    max-width: 545px;
     border-radius: 10px;
     margin-bottom: 10px;
     object-fit: cover;
@@ -58,5 +58,9 @@
 @media (max-width: 1000px) {
     .blogssection {
         flex-direction: column;
+    }
+
+    .backgr {
+        height: 100%;
     }
 }

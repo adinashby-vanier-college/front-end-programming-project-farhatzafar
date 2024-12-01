@@ -76,3 +76,18 @@
     margin: 0 auto;
     padding: 0 0;
   }
+
+  @media (max-width: 991px) {
+    .project-cards {
+        flex-direction: column;
+    }
+
+    .project-card {
+      width: 80%;
+      margin: auto;
+    }
+
+    .backgr {
+        height: 100%;
+    }
+}

@@ -122,3 +122,13 @@
     max-width: 90px;
     max-height: 120px;
 }
+
+@media (max-width: 991px) {
+    .programinfo {
+        flex-direction: column;
+    }
+
+    .backgr {
+        height: 100%;
+    }
+}

@@ -3,7 +3,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/pexels-athena-2371905.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     }
 
 .navbar-nav {
