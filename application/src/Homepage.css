@@ -61,4 +61,16 @@ height: 100vh;
     .back {
         height: 100%;
     }
+
+    .flask {
+        margin: auto;
+    }
+
+    .comp {
+        margin: auto;
+    }
+
+    .desc {
+        margin: auto;
+    }
 }
