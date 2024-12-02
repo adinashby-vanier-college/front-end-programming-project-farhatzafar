@@ -81,7 +81,9 @@
     align-items: center;
     flex-direction: column;
     color: #fff;
-    border: #fff solid 2px;
+    border: 2px solid #f30a0a;
+    box-shadow: 0 0 5px #f30a0a, 
+    0 0 25px #f30a0a;
     width: auto;
     max-width: 550px; 
     background: black;;
@@ -91,7 +93,7 @@
 
 .blogcard h4 {
     font-family: sans-serif;
-    padding: 0 20px;
+    padding: 0 90px;
     text-align: center;
 }
 
@@ -99,6 +101,30 @@
     padding: 0;
     text-align: center;
     margin: 0 20px;
+}
+
+.read-more-text {
+    display: none;
+}
+
+.read-more-text--show {
+    display: inline;
+}
+
+.read-more-btn {
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, #b90000, #ff0000);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.read-more-btn:hover {
+    background: linear-gradient(to right, #ff5050, #ffa9a9);
+
 }
 
 @media (max-width: 1000px) {
