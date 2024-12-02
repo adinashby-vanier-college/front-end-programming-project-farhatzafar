@@ -14,16 +14,56 @@
 .navbar-brand {
     padding: 8px;
 }
+
+.navbar .navbar-nav .nav-item .nav-link{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after {
+  content: '';
+  background: linear-gradient(to right, #b90000, #ff0000);
+  height: 100%;
+  width: 0px;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 150ms ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::after{
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  color: black;
+}
+
 #projects {
     padding-top: 10px;
   }
   
   #projects h1 {
-    font-size: 2.5rem;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    color: #ffffff;
     text-align: center;
-    color: #fff;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
   }
-  
+
   .project-cards {
     display: flex;
     justify-content: space-between;
@@ -31,30 +71,35 @@
   }
 
   .project-card {
-    background-color: #fed9ff;
+    background-color: black;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 40%;
-    border: 2px solid #157062;
+    border: 2px solid #f30a0a;
+    box-shadow: 0 0 5px #f30a0a, 
+    0 0 25px #f30a0a;
+    height: auto;
+    border-radius: 1em;
+    transition: 0.5s ease;
   }
   
   .project-card img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 1em;
   }
 
   .project-card h2 {
     margin-top: 10px;
     font-size: 1.8rem;
+    color: #fff;
   }
   
   .project-card p {
     font-size: 1rem;
     margin-top: 10px;
+    color: #fff;
   }
   
   .project-card a {
@@ -62,13 +107,13 @@
     margin-top: 15px;
     text-decoration: none;
     color: #fff;
-    background-color: #541570;
+    background: linear-gradient(to right, #b90000, #ff0000);
     padding: 10px 20px;
     border-radius: 5px;
   }
 
   .project-card a:hover {
-    background-color: #d272ff;
+    background: linear-gradient(to right, #ff5050, #ffa9a9);
   }
   
   .container {
@@ -85,6 +130,7 @@
     .project-card {
       width: 80%;
       margin: auto;
+      height: auto;
     }
 
     .backgr {
